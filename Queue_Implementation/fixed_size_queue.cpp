@@ -33,7 +33,8 @@ public:
       }
       ~ Queue()
       {
-            delete front;
+            if(!isEmpty())
+                  delete front;
             delete rear;
       }
       
