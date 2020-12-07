@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  Queue_implementation_LL
-//
-//  Created by Balaji Krishnamurthy on 11/17/20.
-//  Copyright © 2020 Balaji Krishnamurthy. All rights reserved.
-//
+// Fized size queue
 
 #include <iostream>
 
@@ -88,12 +82,6 @@ public:
 
 int main()
 {
-//      float *fans = new float[5];
-//      for(int i=0; i<5; i++)
-//      {
-//            fans[i] = i*i;
-//      }
-//      std::cout<<fans[3]<<std::endl;
       Queue fq(5);
       fq.Push(6);
       fq.Push(3);
