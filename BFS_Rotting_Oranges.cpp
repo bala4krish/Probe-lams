@@ -79,7 +79,7 @@ int orangesRotting(vector<vector<int>>& grid)
 
 int main()
 {
-        std::vector<std::vector<int>> fvec {{1,1,1},{1,1,0},{1,0,1}};
+        std::vector<std::vector<int>> fvec {{2,1,1},{1,1,0},{0,1,1}};
         std::cout << orangesRotting(fvec) << std::endl;
         return 0;
 }
