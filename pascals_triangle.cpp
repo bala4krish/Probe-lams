@@ -1,13 +1,13 @@
-# This code generates the beautiful pascal's triangle for a given number of rows.
-    # Example input - 5
-    # Expected output
-    #                       [
-    #                             [1],
-    #                            [1,1],
-    #                           [1,2,1],
-    #                          [1,3,3,1],
-    #                         [1,4,6,4,1]
-    #                       ]
+// This code generates the beautiful pascal's triangle for a given number of rows.
+        // Example input - 5
+        // Expected output
+        //                       [
+        //                             [1],
+        //                            [1,1],
+        //                           [1,2,1],
+        //                          [1,3,3,1],
+        //                         [1,4,6,4,1]
+        //                       ]
 
 
 #include <iostream>
