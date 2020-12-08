@@ -45,6 +45,6 @@ int numSpecial(vector<vector<int>>& mat) {
 int main()
 {
         std::vector<std::vector<int>> fvec {{1,0,0},{0,0,1},{1,0,0}};
-        std::cout << numSpecial(fvec);
+        std::cout << numSpecial(fvec) << std::endl;
         return 0;
 }
