@@ -1,20 +1,20 @@
-# Given a board, determine if it has a valid sudoku. The board has valid sudoku if
-  # Each row has 1-9 without repitition
-  # Each column has 1-9 without repitition
-  # Each of the 3*3 sub grids has 1-9 wihtout repitition
+// Given a board, determine if it has a valid sudoku. The board has valid sudoku if
+    // Each row has 1-9 without repitition
+    // Each column has 1-9 without repitition
+    // Each of the 3*3 sub grids has 1-9 wihtout repitition
   
-# Example Input - 
-#                 [["5","3",".",".","7",".",".",".","."]
-#                 ,["6",".",".","1","9","5",".",".","."]
-#                 ,[".","9","8",".",".",".",".","6","."]
-#                 ,["8",".",".",".","6",".",".",".","3"]
-#                 ,["4",".",".","8",".","3",".",".","1"]
-#                 ,["7",".",".",".","2",".",".",".","6"]
-#                 ,[".","6",".",".",".",".","2","8","."]
-#                 ,[".",".",".","4","1","9",".",".","5"]
-#                 ,[".",".",".",".","8",".",".","7","9"]]
+// Example Input - 
+//                 [["5","3",".",".","7",".",".",".","."]
+//                 ,["6",".",".","1","9","5",".",".","."]
+//                 ,[".","9","8",".",".",".",".","6","."]
+//                 ,["8",".",".",".","6",".",".",".","3"]
+//                 ,["4",".",".","8",".","3",".",".","1"]
+//                 ,["7",".",".",".","2",".",".",".","6"]
+//                 ,[".","6",".",".",".",".","2","8","."]
+//                 ,[".",".",".","4","1","9",".",".","5"]
+//                 ,[".",".",".",".","8",".",".","7","9"]]
 
-# Expected output - True.
+// Expected output - True.
 
 #include <iostream>
 #include <unordered_map>
