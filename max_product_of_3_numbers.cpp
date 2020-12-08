@@ -39,7 +39,8 @@ int maximumProduct(vector<int>& nums)
 
 int main()
 {
-  std::vector<int> vec_in {-1,-11,3,4,5,6,10};
-  std::cout << "The max product is : " << maximumProduct(vec_in);
+        std::vector<int> vec_in {-1,-11,3,4,5,6,10};
+        std::cout << "The max product is : " << maximumProduct(vec_in);
+        return 0;
 }
     
