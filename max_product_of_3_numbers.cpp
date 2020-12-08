@@ -1,6 +1,6 @@
-# Given an array of integers (positive & negative), this code will find the maximum product of three numbers in O(n) time.
-# Example Input - [-1,-11,3,4,5,6,10]
-# Expected Output - 300.
+// Given an array of integers (positive & negative), this code will find the maximum product of three numbers in O(n) time.
+        // Example Input - [-1,-11,3,4,5,6,10]
+        // Expected Output - 300.
 
 #include <iostream>
 #include <vector>
